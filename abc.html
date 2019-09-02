@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0px -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 60%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  object-position: center;
+
+  width:250px;
+  height:250px;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+.block {
+  display: block;
+  width: 100%;
+  height:50px;
+  border: none;
+  background-color: #FFFFFF;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.blocka {
+  display: block;
+  width: 50%;
+  height:60px;
+  border: none;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ff4500;
+  color: black;
+}
+.blocka:hover {
+  background-color: #ff4500;
+  color: black;
+}
+div1 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+h1 {
+  position: absolute;
+  left: 580px;
+  top: 620px;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header"><br>
+      <a href="#"><i class="fa fa-camera" style="font-size:50px;color:red"></i></a>
+      
+    </div>
+    <ul class="nav navbar-nav">
+    
+     
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#"><b><h3>Home  </h3></b></a></li>
+      <li class="active"><a href="#"><h3>  About </h3> </a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <h3> Services </h3> </a>
+          <ul class="dropdown-menu">
+          <li><a href="#"><h3>Image Storage</h3></a></li>
+          <li><a href="#"><h3>Image Retouching</h3></a></li>
+        </ul>
+      </li>
+      <li class="active"><a href="#"> <h3> Blog </h3> </a></li>
+      <li class="active"><a href="#"> <h3> Contact </h3> </a></li>
+      
+    </ul>
+  </div>
+</nav>
+<img src="a.jpg" class="img-rounded" alt="Cinque Terre" width="1350" height="500">
+     <p><h1><b> Our Journey</b></h1></p>
+     <br><br>
+     <br>
+     <br>
+   <div style="background-color: white">
+<center>
+<img src="ES1.jpg" alt="Trulli" width="800" height="200">
+</center>
+<div align="right" class="row">
+  <p>
+  <div align="right" class="column">
+
+    <div align="right" class="card">
+     <img src="1.jpg" alt="hey" width="215" height="180">
+      <p><button class="block">Clipping Path</button></p>
+
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+         <img src="2.jpg" alt="hey" width="215" height="180">
+        <p><button class="block">Background Remove</button></p>
+
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+             <img src="3.jpg" alt="hey" width="215" height="180">
+            <p><button class="block">Portrait Retouching</button></p>
+     </div>
+    </div>
+   
+  </div>
+
+  <br>
+  <br>
+  <div align="right" class="row">
+  <div class="column">
+    <div class="card">
+             <img src="4.jpg" alt="hey" width="215" height="180">
+             <p><button class="block">Wedding Retouching</button></p>
+     
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+           <img src="5.jpg" alt="hey" width="215" height="180">
+           <p><button class="block"><small>Automobile Retouching</small></button></p>
+    
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+          <img src="6.jpg" alt="hey" width="215" height="180">
+     <p><button class="block">Jwellery Retouching</button></p>
+ 
+    </div>
+  </div>
+</div>
+  <div style="margin:30px"><center>
+    <p><button class="blocka" style="width:20%" ><h4><b>Send Us a test</b></h4></button></p>
+  </center>
+  </div>
+  <div1>
+    <p><h2><b><center>Best Photo Retouching Services</center></b></h2></p><br>
+    <p ><h4><justify>   Photo Retouching & Editing is the process to restore,correct and manipulate photographs,It involves transformating or altering a photo using various methods and techniques to achieve desired results.We provide High-quality Photo Editing Services like Image Background Removal,color correction,image Sharpening removal of unwanted elements like dust and wire,Clipping paths,Masking,manipulation,restoration,ghost mannequin etc.
+The photographs that showcase your products on your website are highly Important.They make a statement about your brand and attract customers,enticing them to click on the buy button.We are one of the best product retouching company with more than 5000 happy clients Worldwide.
+In existence since 2009 and with more thn 9 years of experience in photo retouching and photo editing work,when you outsource your photoshop photo editing services you can be certain that you are hiring the best pair of professional hands.We do all that it takes to get the job done.With us,you can rest assuered that your images will be edited promptly while maintaining the highest standards of quality and consistency.</justify></h4></p>
+<p><b><h2>
+Why Our Photo Editing Services?
+</b></h2></p>
+<p><h4><justify>
+ We are an ISO certified company that guarantees high quality and data security standards will be maintained as we handle your project.
+All Photo Editing and Photo Retouching services are handled by over 200 outstanding photoshop editors who strive to turn your vision into reality.Handling over three million images per month,you will find that hiring us to handle large volumes of Photo editing projects is not only cost-effective but also the best decision that you can never make.
+We cater to satisfied clients all over the world.Whether you require photos for your Ecommerce Company, Photgraphy Company,photo Editing Studios,advertisimg Company,media house or for personal use we are confident in our ability to understand what you need,exactly when you need it.
+If you are looking for outstanding Professional Photo Retouching services tht will deliver striking retouched images then you can count on us.We do more than just Photoshop;we offer a range of services that are custom-made for you and for your needs.</justify></h4>
+</p>
+</div1>
+  <div style="background-color: #D3D3D3">
+
+<h2><center>Our Happy Clients</center></h2>
+
+<center>
+
+<a href="https://www.flipkart.com/" ><img src="flipkart-226594.png" alt="Trulli" width="200" height="100">
+</a>&nbsp &nbsp &nbsp &nbsp &nbsp
+<a href="https://www.amazon.com/" ><img src="amazon-512.png" alt="Trulli" width="200" height="100">
+</a>&nbsp &nbsp &nbsp &nbsp &nbsp
+<a href="https://www.snapdeal.com/" ><img src="Snapdeal-Logo-PNG-Image-715x715.jpg" alt="Trulli" width="200" height="100">
+</a>&nbsp &nbsp &nbsp &nbsp &nbsp
+<a href="http://www.shopclues.com/" ><img src="shopclues.jpg" alt="Trulli" width="200" height="100">
+</a></center></div>
+
+</body>
+</html>
